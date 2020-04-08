@@ -26,6 +26,9 @@ export default class Test extends cc.Component {
     @property( cc.Label)
     tLabel: cc.Label = null
 
+    @property( cc.Node)
+    testnode: cc.Node = null
+
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {}
